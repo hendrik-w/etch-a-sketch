@@ -50,9 +50,11 @@ div#grid-container {
 }
 
 div.field {
-    background-color: rgba(10,10,10, 0.4);
     width: auto;
     height: auto;
+    background-color:white;
+    border-radius: 4px;
+    margin: 1px;
 }
 
 button#clear-btn {
@@ -71,7 +73,4 @@ button#clear-btn:hover {
     cursor: pointer;
 }
 
-div.painted-field {
-    background-color: rgba(var(--accent-color));
-}
 
